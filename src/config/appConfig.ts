@@ -4,8 +4,8 @@ export class AppConfig {
     public static COSMOSDB_CONFIG = {
       endpoint: "https://test-sql.documents.azure.com:443/",
       key: "GjqXjzbIxJXiXWXzSmG2zPnAeB8YNAfvNNCIs4G0OhdvHaiT7ng4HEESLYtibSPnu4St8FLaVcXVTUsIXu2vSg==",
-      databaseId: "DamonSlayer",
-      containerId: "Characters",
+      databaseId: "ToDoList",
+      containerId: "Items",
       partitionKey: { kind: "Hash", paths: ["/category"] }
     }
   }
